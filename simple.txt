@@ -15,15 +15,17 @@ class A{
 	}
 	A(){
 		System.out.print(m1(sc.nextFloat()));
-		System.out.print("Default");
+		System.out.print("Default Constructor");
 	}
 	A(int x){
 		System.out.print(m2(sc.next()));
 		System.out.print(x);
+		System.out.print("Single para constructor");
 	}
 	A(String x,byte b){
 		System.out.print(m3(sc.nextLong()));
 		System.out.print(x+" "+b);
+		System.out.print("Double para constructor");
 	}
 	public static void main(String args[]){
 		A obj=new A();
